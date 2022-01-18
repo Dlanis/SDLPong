@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="SVGRoot" width="48" height="48" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+	<g>
+		<circle cx="32" cy="32" r="32" fill="#2b0808" stroke-width="4.032"/>
+		<circle cx="32" cy="32" r="30" fill="#d92626" stroke-width="3.244" style="mix-blend-mode:normal"/>
+		<path d="m39.54 2.971a28 28 0 0 1 15.46 25.03 28 28 0 0 1-28 28 28 28 0 0 1-21.55-10.19 30 30 0 0 0 26.55 16.19 30 30 0 0 0 30-30 30 30 0 0 0-22.46-29.03z" fill="#821717" stroke-width=".9231" style="mix-blend-mode:normal"/>
+	</g>
+</svg>

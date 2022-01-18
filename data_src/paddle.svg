@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="24px"
+   height="160px"
+   viewBox="0 0 24 160"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="paddle.svg"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   inkscape:export-filename="/home/notauser/Stuff/Projects/CppProjects/SDLPong/data/paddle.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview5184"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="2.1950617"
+     inkscape:cx="-50.795838"
+     inkscape:cy="80.635546"
+     inkscape:window-width="1440"
+     inkscape:window-height="849"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="false"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid5256" />
+  </sodipodi:namedview>
+  <defs
+     id="defs5179" />
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#08082b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 0,6 C 0,3 3,0 6,0 h 12 c 3,0 6,3 6,6 v 148 c 0,3 -3,6 -6,6 H 6 c -3.0836035,0.14318 -6,-3 -6,-6 z m 10.388862,5.274734 z"
+       id="path5753"
+       sodipodi:nodetypes="ccccccccc" />
+    <path
+       style="fill:#2626d9;fill-opacity:1;stroke:none;stroke-width:0.901371px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 2,7.8498272 C 2,4.9249133 4.5,2 7,2 h 10 c 2.5,0 5,2.9249133 5,5.8498272 V 152.14557 c 0,2.92487 -2.5,5.84983 -5,5.84983 H 7 c -2.56967,0.1396 -5,-2.92496 -5,-5.84983 z m 8.657385,5.1427208 z"
+       id="path5753-3"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:label="path5753-3" />
+  </g>
+</svg>
