@@ -4,12 +4,13 @@ My own pong on SDL
 # Building
 Linux
 -----
-Dependencies `SDL2 SDL2_image SDL2_ttf CMake` just install them from repo.
+Dependencies are `SDL2 SDL2_image SDL2_ttf CMake` just install them from the repository.
+For Arch Linux `sudo pacman -S sdl2 sdl2_image sdl2_ttf cmake`
 
 Windows
 -------
-Not support and don't planed
+Don't support and don't planned to.
 
 Macos
 -----
-Don't know
+Don't know.
