@@ -10,10 +10,13 @@ For Arch Linux `sudo pacman -S sdl2 sdl2_image sdl2_ttf cmake`
 
 Later just
 `
-mkdir build\n
-cd build\n
-cmake ..\n
-make\n
+mkdir build
+
+cd build
+
+cmake ..
+
+make
 `
 
 Windows
