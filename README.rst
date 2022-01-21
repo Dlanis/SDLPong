@@ -15,6 +15,11 @@ For Arch Linux ``sudo pacman -S sdl2 sdl2_image sdl2_ttf cmake``
 
 Later just
 
+  .. code:: bash
+
+     git clone https://github.com/google/glog.git
+     cd glog
+
 .. code:: bash
   mkdir build
   cd build
