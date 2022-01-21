@@ -17,15 +17,10 @@ Later just
 
   .. code:: bash
 
-     git clone https://github.com/google/glog.git
-     cd glog
-
-.. code:: bash
-  mkdir build
-  cd build
-  cmake ..
-  make
-.. code:: bash
+     mkdir build
+     cd build
+     cmake ..
+     make
 
 Windows
 -------
