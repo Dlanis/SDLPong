@@ -17,7 +17,7 @@ For Arch Linux:
 
      sudo pacman -S sdl2 sdl2_image sdl2_ttf cmake``
 
-Later just
+For build
 
   .. code:: bash
 
