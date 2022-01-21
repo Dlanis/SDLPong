@@ -29,6 +29,7 @@ else()
 endif()
 message("Using ${BUILD_LINKER} linker.")
 
+
 option(BUILD_LTO OFF)
 if(BUILD_LTO)
     set(CMAKE_INTERPROCEDURAL_OPTIMIZATION TRUE)
