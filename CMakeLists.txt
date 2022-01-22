@@ -15,6 +15,13 @@ set_property(CACHE CMAKE_BUILD_TYPE PROPERTY STRINGS "Release" "MinSizeRel" "Rel
 message("Build type ${CMAKE_BUILD_TYPE}.")
 
 
+option(BUILD_FAST_MATH ON)
+if(BUILD_FAST_MATH)
+    add_compile_options(-ffast-math)
+    message("Build with fast math.")
+endif()
+
+
 set(BUILD_LINKER "DEFAULT" CACHE STRING "Choose linker for building.")
 set_property(CACHE BUILD_LINKER PROPERTY STRINGS "DEFAULT" "BFD" "GOLD" "LLD" "MOLD")
 if (BUILD_LINKER STREQUAL "MOLD")
@@ -30,13 +37,13 @@ elseif(BUILD_LINKER STREQUAL "BFD")
     set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -fuse-ld=bfd")
     set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -fuse-ld=bfd")
 endif()
-message("Using ${BUILD_LINKER} linker.")
+message("Build with ${BUILD_LINKER} linker.")
 
 
 option(BUILD_LTO OFF)
 if(BUILD_LTO)
     set(CMAKE_INTERPROCEDURAL_OPTIMIZATION TRUE)
-    message("Using Interoricedural Optimization.")
+    message("Build with Interoricedural Optimization.")
 endif()
 
 
