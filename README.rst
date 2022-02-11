@@ -28,7 +28,7 @@ For building:
 
 Windows
 -------
-Maybe msys?
+Don't know.
 
 Macos
 -----
